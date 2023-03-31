@@ -1,0 +1,54 @@
+
+/* Estilos generales */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra */
+    background-color: #01476d; /* Color de fondo de la barra */
+  }
+  
+  /* Estilos cuando el cursor está sobre la barra */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #000000; /* Color de la barra cuando está en hover */
+  }
+  
+  /* Estilos de la barra */
+  ::-webkit-scrollbar-thumb {
+    background-color: #000474; /* Color de la barra */
+    border-radius: 5px; /* Radio de borde de la barra */
+  }
+  
+.header {
+    margin-top:60 ;
+
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: rgb(187, 187, 187);
+}
+
+.headerTitleSm {
+    position: absolute;
+    top: 6%;
+    font-size: 20px;
+    
+}
+
+.headerTitleLg{
+   position: absolute;
+   top: 6%;
+   font-size: 100px;
+
+}
+
+
+
+.headerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
