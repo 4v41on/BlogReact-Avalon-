@@ -1,3 +1,13 @@
+@font-face {
+  font-family: ageya;
+  src: url('../fonts/Ageya-Regular.otf');
+} 
+@font-face {
+  font-family: ageyaOB;
+  src: url('../fonts/Ageya-Oblique.otf');
+}
+
+
 .login {
     height: calc(100vh - 50px);
     display: flex;
@@ -6,13 +16,16 @@
     justify-content: center;
    background:linear-gradient(rgba(76, 76, 76, 0.448),
     rgba(0, 0, 0, 0.483)), 
-    url("https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
+    url('../media/loginBg.jpg');
+  background-size: cover;
 
 }
 
 .loginTitle {
-    font-size: 50px;
+    font-size: 80px;
+    font-family: ageyaOB;
+    font-weight: bold;
+    color: white;
   }
   
   .loginForm {
@@ -29,14 +42,15 @@
     padding: 10px;
     background-color: rgba(232, 232, 232, 0);
     border: none;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
+    border-bottom: 2px solid black;    
+
  
  
   }
   .loginForm > label {
-    color: rgb(9, 242, 9);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
   }
   
   .loginInput:focus {
@@ -45,32 +59,52 @@
   
   .loginInput::placeholder{
     filter: blur(0.5px);
-    color: green;
+    color: rgb(226, 226, 226);
   }
   .loginButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: rgb(0, 253, 51);
+    background-color: rgba(94, 0, 201, 0);
     color: rgb(0, 0, 0);
     padding: 10px;
-    border: none;
-    border-radius: 8px;
+    border: 2px solid black;
+    border-style:calc();
     text-align: center;
   }
 
   .loginButton:disabled {
     cursor: not-allowed;
-    background-color: #44ff006b;
+    background-color: #30f1006b;
+  }
+
+  .loginButton:hover {
+    background-color: rgba(245, 245, 245, 0.199) ;
+    
+    
   }
   
   .loginRegisterButton {
-    background-color: rgb(0, 255, 17);
-    cursor: pointer;
+     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
     margin: 10px;
     padding: 10px;
+    padding-left: 2rem;
+    padding-right:2rem ;
     border: none;
    color: rgb(0, 0, 0);
-    border-radius: 8px;
+   border: 2px solid black;
+   border-style:calc();
+   text-align: center;
+   
+  }
+  .loginRegisterButton:hover
+   {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .textocute  {
+    font-family: 'poppins',sans-serif;
+ 
   }
 
   

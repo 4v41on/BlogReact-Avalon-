@@ -3,7 +3,7 @@
   }
   
   .singlePostWrapper {
-    padding: 20px;
+    padding: 50px;
     padding-right: 0;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
   .singlePostTitle {
     text-align: center;
     margin: 10px;
-    font-family: "Lora", serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
   }
   
@@ -63,10 +63,18 @@
     font-family: "Varela Round", sans-serif;
     color: #b39656;
   }
+
+
+  .wraptext {
+    width: 1200px;
+    text-align: center;
+    padding-left: 15rem;
+  }
   
   .singlePostDesc {
+    font-family: 'Poppins', sans-serif;
     color: #666;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
   }
   

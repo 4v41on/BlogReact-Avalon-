@@ -31,14 +31,14 @@ console.log(user);
         <input
           type="text"
           className="loginInput"
-          placeholder="Enter your username..."
+          placeholder="crazy users"
           ref={userRef}
         />
         <label>Password</label>
         <input
           type="password"
           className="loginInput"
-          placeholder="Enter your password..."
+          placeholder="ur pass"
           ref={passwordRef}
         />
         <button className="loginButton" type="submit" disabled={isFetching}>
@@ -50,6 +50,8 @@ console.log(user);
           Register
         </Link>
       </button>
+      <span className="textocute">BY: ENKI </span>
     </div>
+    
   );
 }

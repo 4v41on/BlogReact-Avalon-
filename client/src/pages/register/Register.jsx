@@ -52,7 +52,7 @@ export default function Register() {
       placeholder= " Entre your pass... "
       onChange={e=>setPassword(e.target.value)}
       />
-      <button className="registerButton" type="submit">Register</button>
+      <button className="registerButton" type="submit">CREATE</button>
       </form>
       <button className="registerLoginButton">
       <Link className="link" to="/Login">LOGIN</Link>
